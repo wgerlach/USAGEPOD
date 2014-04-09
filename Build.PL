@@ -5,7 +5,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name         => 'USAGEPOD',
-    license             => 'Artistic_2_0',
+    license             => 'bsd',
     dist_author         => q{Wolfgang Gerlach <mail@wolfgang-gerlach.com>},
     dist_version_from   => 'lib/USAGEPOD.pm',
     release_status      => 'stable',
