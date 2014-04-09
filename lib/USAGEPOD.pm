@@ -2,6 +2,8 @@ package USAGEPOD;
 use Exporter;
 use Getopt::Long;
 
+my $VERSION = 1;
+
 @ISA = ('Exporter');
 @EXPORT = qw(parse_options);
 
