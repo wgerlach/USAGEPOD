@@ -19,6 +19,8 @@ my $builder = Module::Build->new(
     requires => {
         #'ABC'              => 1.6,
         #'Foo::Bar::Module' => 5.0401,
+	'Exporter'          => 0,
+	'Getopt::Long'      => 0
     },
     add_to_cleanup     => [ 'USAGEPOD-*' ],
     create_makefile_pl => 'traditional',
