@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
     license             => 'bsd',
     dist_author         => q{Wolfgang Gerlach <mail@wolfgang-gerlach.com>},
     dist_version_from   => 'lib/USAGEPOD.pm',
+    dist_abstract       => 'something',
     release_status      => 'stable',
     configure_requires => {
         'Module::Build' => 0,
